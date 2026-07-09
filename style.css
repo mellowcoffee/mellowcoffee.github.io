@@ -92,8 +92,10 @@ a:has(> svg) {
     gap: 0.3rem;
 }
 
-.links > a + a {
-    margin-left: 1rem;
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
 }
 
 strong, b { font-weight: bold; }
